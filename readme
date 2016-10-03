@@ -1,0 +1,4 @@
+BHAC_WAR.R requires hockey_daily_elo_py.csv (provided) from
+crowdscoutsports.com and 2015-16 5v5 Even/Odd second split from
+puckalytics.com. BHAC_WARbySplitSeason.R requires BHAC_WAR.R to be ran
+and data from hockeyabstract.com
