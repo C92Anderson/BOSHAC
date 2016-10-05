@@ -160,8 +160,7 @@ print(css.plot)
   require(cowplot)
   plot_grid(gvt.plot, css.plot, align='h')
   
-
-
+####Intraseason Scores  
 player.scored.odd <- player.splits.scored %>%
                         subset(substr(player.splits.scored$Season.Split, 9, 10) == "Od") %>%
                         dplyr::select(Player.Name, Season, Predicted.Score) %>%
